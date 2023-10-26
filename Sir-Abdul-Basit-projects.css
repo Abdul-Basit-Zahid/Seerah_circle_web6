@@ -1,0 +1,799 @@
+body {
+    padding: 0;
+    background-color: #F5F5F5;
+    margin: 0;
+    scroll-behavior: none;
+}
+ 
+.display {
+    display: none;
+}
+ 
+#container {
+    display: grid;
+    padding: 0;
+    grid-template-rows: 25vh 70vh 45vh 100vh 85vh;
+    width: 95%;
+}
+ 
+#new-container {
+    background-color: #728089;
+    display: none;
+}
+ 
+h5:hover {
+    background-color: #5e666b;
+}
+ 
+h3:hover {
+    color: #005B96;
+    transition: 0.7s;
+}
+ 
+ .unique-button {
+    display: none;
+}
+ 
+ 
+ #container-1 {
+    background-color: #FFFFFF;
+ }
+ 
+ .display {
+    display: none;
+ }
+ 
+ 
+ p,
+ h1,
+ h2,
+ h3 {
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ 
+ .labels-of-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    margin-left: -5vh;
+ }
+ 
+ .text-of-nav {
+    margin-top: 10vh;
+    font-size: 3vh;
+ }
+ 
+ .text-of-nav:hover {
+    cursor: pointer;
+ }
+ 
+ #Contact-us {
+    margin-top: 8.5vh;
+    width: 25vh;
+    border-radius: 10vh;
+    height: 7.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+    outline: 0px;
+    background-color: #0B6DB6;
+    border: 0px;
+    color: #FBFBFB;
+ }
+ 
+ #page-1-heading {
+    text-align: center;
+    background-color: #005B96;
+    color: #F5F5F5;
+ }
+ 
+ 
+ #container-2 {
+    background-color: #005B96;
+    padding-top: 4vh;
+    padding-left: 4vh;
+    width: 100%;
+    display: flex;
+ }
+ 
+ .box-1-of-container-2 {
+    width: 95%;
+ }
+ 
+ #COMSATS-SEERAH-PROGRAM {
+    margin-top: 2.5vh;
+    font-size: 6vh;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+ }
+ 
+ .know-the-purpose {
+    text-align: center;
+    color: #f5f5f58c;
+    font-style: italic;
+ }
+ 
+ #hadith-text {
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: -5vh;
+    color: #FFFFFF;
+ }
+ 
+ #Enroll-now {
+    outline: 0;
+    background-color: black;
+    color: #E2F7FF;
+    width: 25vh;
+    border-radius: 10vh;
+    height: 7.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+    border: 0px;
+ }
+ 
+ .box-2-of-container-2 {
+    width: 30%;
+ }
+ 
+ .img-of-container-2 {
+    width: 10vh;
+ }
+ 
+ 
+ .container-3 {
+    background-color: #F5F5F5;
+    display: flex;
+ }
+ 
+ #img-of-container-3 {
+    height: 45vh;
+ }
+ 
+ #WHY-SEERAH {
+    color: #005B96;
+    padding: 4vh 0 0 4vh;
+ }
+ 
+ #lorem {
+    margin-left: 4vh;
+    font-weight: bold;
+    font-size: 3vh;
+ }
+ 
+ 
+ .container-4 {
+    grid-template-rows: 10vh 100vh;
+    background-color: #FFFFFF;
+ }
+ 
+ .for-page-2-flex {
+    display: flex;
+ }
+ 
+ .text-of-page-2 {
+    margin-left: 8vh;
+ }
+ 
+ .heading {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2vh;
+    width: 70vh;
+    background-color: #005B96;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+ }
+ 
+ #lorem2 {
+    margin-top: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+ 
+ }
+ 
+ #i {
+    font-size: 6vh;
+    padding: 10px;
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+ }
+ 
+ i:hover {
+    cursor: pointer;
+ }
+ 
+ #discover-more-page-2 {
+    width: 25vh;
+    border-radius: 10vh;
+    height: 7.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+    outline: 0px;
+    background-color: #0B6DB6;
+    border: 0px;
+    color: #FBFBFB;
+ }
+ 
+ 
+ #img-of-container-4 {
+    width: 70vh;
+ }
+ 
+ #watch-our-videos {
+    text-decoration: underline;
+    margin-top: 2.75vh;
+    font-size: 2.2vh;
+    color: #005B96;
+ }
+ 
+ #watch-our-videos:hover {
+    cursor: pointer;
+ }
+ 
+ .two-buttons-of-page-2 {
+    display: flex;
+    margin-left: 20%;
+ }
+ 
+ 
+ .container-5 {
+    grid-template-rows: 10vh 100vh;
+    background-color: #f5f5f5;
+    padding-top: 2.5vh;
+ }
+ 
+ .for-page-3-flex {
+    display: flex;
+ }
+ 
+ .text-of-page-3 {
+    margin-left: 8vh;
+ }
+ 
+ .heading {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2vh;
+    width: 70vh;
+    background-color: #005B96;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+ }
+ 
+ #lorem3 {
+    margin-top: 8vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+ 
+ }
+ 
+ #i {
+    font-size: 6vh;
+    padding: 10px;
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+ }
+ 
+ i:hover {
+    cursor: pointer;
+ }
+ 
+ #discover-more-page-3 {
+    width: 25vh;
+    border-radius: 10vh;
+    height: 7.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+    outline: 0px;
+    background-color: #0B6DB6;
+    border: 0px;
+    color: #FBFBFB;
+ }
+ 
+ 
+ #img-of-container-5 {
+    width: 70vh;
+    margin-top: 10vh;
+ }
+ 
+ #watch-our-videos {
+    text-decoration: underline;
+    margin-top: 2.75vh;
+    font-size: 2.2vh;
+    color: #005B96;
+ }
+ 
+ #watch-our-videos:hover {
+    cursor: pointer;
+ }
+ 
+ .two-buttons-of-page-3 {
+    display: flex;
+ 
+ }
+ 
+ 
+ .container-6 {
+    grid-template-rows: 10vh 100vh;
+    padding-top: 2.5vh;
+    background-color: #FFFFFF;
+ 
+ }
+ 
+ .for-page-4-flex {
+    display: flex;
+ }
+ 
+ .text-of-page-4 {
+    margin-left: 8vh;
+ }
+ 
+ .heading {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2vh;
+    width: 70vh;
+    background-color: #005B96;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+ }
+ 
+ #lorem4 {
+    margin-top: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3 vh;
+ 
+ }
+ 
+ #i {
+    font-size: 6vh;
+    padding: 10px;
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+ }
+ 
+ i:hover {
+    cursor: pointer;
+ }
+ 
+ #discover-more-page-4 {
+    width: 25vh;
+    border-radius: 10vh;
+    height: 7.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+    outline: 0px;
+    background-color: #0B6DB6;
+    border: 0px;
+    color: #FBFBFB;
+ }
+ 
+ 
+ #img-of-container-6 {
+    width: 70vh;
+    margin-top: 10vh;
+ }
+ 
+ #watch-our-videos {
+    text-decoration: underline;
+    margin-top: 2.75vh;
+    font-size: 2.2vh;
+    color: #005B96;
+ }
+ 
+ #watch-our-videos:hover {
+    cursor: pointer;
+ }
+ 
+ .two-buttons-of-page-4 {
+    display: flex;
+ 
+ }
+ 
+ 
+ .container-7 {
+    grid-template-rows: 10vh 100vh;
+    padding-top: 2.5vh;
+    background-color: #f5f5f5;
+ 
+ }
+ 
+ 
+ .text-of-page-5 {
+    margin-left: 8vh;
+ }
+ 
+ .heading {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2vh;
+    width: 70vh;
+    font-size: 4vh;
+    background-color: #005B96;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+ }
+ 
+ #lorem5 {
+    margin-top: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.75vh;
+ 
+ }
+ 
+ #i {
+    font-size: 6vh;
+    padding: 10px;
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+ }
+ 
+ i:hover {
+    cursor: pointer;
+ }
+ 
+ #discover-more-page-5 {
+    width: 25vh;
+    border-radius: 10vh;
+    height: 7.5vh;
+    font-weight: bold;
+    font-size: 3vh;
+    outline: 0px;
+    background-color: #0B6DB6;
+    border: 0px;
+    color: #FBFBFB;
+ }
+ 
+ 
+ #img-of-container-7 {
+    width: 130vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ #watch-our-videos {
+    text-decoration: underline;
+    margin-top: 2.75vh;
+    font-size: 2.2vh;
+    color: #005B96;
+ }
+ 
+ #watch-our-videos:hover {
+    cursor: pointer;
+ }
+ 
+ 
+ #About-us {
+   margin-left:40%;
+   margin:5vh 0 5vh 40%
+ }
+ @media(min-width:1059px){
+   #container{
+      display: grid;
+      grid-template-rows: 30vh 65vh 44vh 105vh 100vh;
+      margin: 0 2.5% 0 2.5%;
+   }
+   
+   #img-of-container-2{
+      width: 90%;
+    }
+ }
+ 
+ @media(min-width:1240px) {
+    #container {
+       width: 90%;
+       margin-left: 5%;
+       padding-right: 5vh;
+       padding-left: 5vh;
+    }
+ 
+    #container-1 {
+       width: 98%;
+    }
+ 
+    #container-2 {
+       width: 95%;
+    }
+ }
+ 
+
+ 
+
+ 
+ 
+ @media(max-width: 1058px) {
+     #container {
+       display: grid;
+       grid-template-rows: 23vh 40vh 24vh 70vh 115vh;
+       margin-left: 0;
+       padding-left: 5%;
+       width: 100%;
+ 
+    }
+ 
+    .unique-button {
+       display: block;
+       margin-top: 1vh;
+       background-color: #728089;
+       height: 35vh;
+    }
+ 
+    h4 {
+       background-color: #728089;
+       margin-left: 2vh;
+    }
+ 
+ 
+    #contact-us {
+       cursor: pointer;
+    }
+ 
+ 
+    #nav-icon {
+       margin-top: -0.25vh;
+       cursor: pointer;
+    }
+ 
+    #container-2 {
+       width: 95%;
+    }
+ 
+ 
+    #img-of-container-1 {
+       width: 20vh;
+       height: 20vh;
+    }
+ 
+ 
+    #COMSATS-SEERAH-PROGRAM {
+       font-size: 3vh;
+    }
+ 
+    #hadith-text {
+       font-size: 1.5vh
+    }
+ 
+ 
+    #img-of-container-2 {
+       width: 20vh;
+       margin-right: 10vh;
+    }
+ 
+    #Enroll-now {
+       width: 25vh;
+       font-size: 3vh;
+       margin-top: -2.5vh;
+    }
+ 
+    h2 {
+       font-size: 4vh;
+    }
+ 
+    .hadith-text {
+       font-size: 3.5vh;
+    }
+ 
+    .container-3 {
+       width: 95%
+    }
+ 
+    #img-of-container-3 {
+       width: 25vh;
+       height: 25vh;
+    }
+ 
+    #WHY-SEERAH {
+       font-size: 2vh
+    }
+ 
+    #lorem {
+       font-size: 1.3vh;
+       padding-right: 2vh;
+    }
+ 
+    #container-4 {
+       width: 95%;
+       padding-left: auto;
+    }
+ 
+    .for-page-2-flex {
+       display: block;
+    }
+ 
+ 
+    #img-of-container-4 {
+       width: 30vh;
+       height: 30vh;
+       margin-left: 32.5%;
+    }
+ 
+    #lorem2 {
+       font-size: 1.5vh;
+       margin-top: 1vh;
+       margin-left: 2vh;
+       padding-right: 3vh;
+    }
+ 
+ 
+    #discover-more-page-2 {
+       font-size: 2vh;
+       width: 30vh;
+       margin-top: 2vh;
+    }
+ 
+    #watch-our-videos {
+       font-size: 1.5vh;
+       width: 20vh;
+       margin-top: 5vh;
+    }
+ 
+    #i {
+       margin-top: 5vh;
+    }
+ 
+    .container-5 {
+       width: 95%;
+    }
+ 
+    #img-of-container-5 {
+       width: 60vh;
+       height: 35vh;
+       margin-left: 20%;
+    }
+ 
+    .for-page-3-flex {
+       display: block;
+    }
+ 
+    .heading {
+       font-size: 2vh;
+       width: 40vh;
+       margin-left: 30%;
+ 
+    }
+ 
+    #circles-of-students-enrolled {
+       margin-left: 20%;
+       width: 50%;
+    }
+ 
+    .for-page-4-flex {
+       display: block;
+    }
+ 
+    .container-6 {
+       width: 95%;
+    }
+ 
+    #img-of-container-6 {
+       width: 40vh;
+       height: 40vh;
+       margin-left: 31%;
+    }
+ 
+    #lorem3 {
+       font-size: 1.5vh;
+       padding-right: 5vh;
+    }
+ 
+    #lorem5 {
+       font-size: 1.5vh;
+       padding-right: 5vh;
+    }
+ 
+    #img-of-container-7 {
+       padding-right: 70vh;
+       margin-left: 10vh;
+    }
+ 
+    #About-us {
+       width: 30vh;
+       margin-top: 5vh;
+    }
+ 
+    .container-7 {
+       width: 95%;
+    }
+ 
+    h3 {
+       margin-top: -10px;
+    }
+ 
+    #new-container {
+       display: none;
+ 
+    }
+ 
+ 
+ }
+/*  
+ @media(min-width:801px) {
+    #new-container {
+       display: none;
+    }
+    #container{ display: grid;
+      grid-template-rows: 23vh 60vh 30vh 100vh 105vh;
+      margin-left: 0;
+      padding-left: 5%;
+      width: 100%;
+    }
+
+ } */
+ 
+ @media(max-width:800px) {
+    .display {
+       display: flex;
+       margin-top: 10vh;
+    }
+
+    .two-buttons-of-page-2{
+      margin-left: 20%;
+    }
+
+    #container{
+      grid-template-rows:30vh 25vh 70vh 70vh 115vh 85vh;
+    }
+
+    #container-1{
+      padding-bottom: 5vh;
+    }
+ 
+    #nav-icon {
+       margin-left: 2.5vh;
+    }
+ 
+ 
+    #container {
+       display: grid;
+       padding: 0;
+       grid-template-rows: 25vh 45vh 50vh 70vh 115vh 85vh;
+       margin: 0vh 0vh 0vh 5vh;
+       width: 95%;
+    }
+ 
+    #new-container {
+       padding: 2vh;
+       width: 95%;
+       display: none;
+    }
+ 
+    h3 {
+       display: none;
+    }
+ 
+    #container-1 {
+       display: flex;
+       justify-content: space-between;
+       width: 92.5%;
+    }
+
+    .container-3{
+      display: block;
+    }
+
+    #img-of-container-3{
+      margin-left: 32.5%;
+      width: 30vh;
+      height: 30vh;
+    }
+ 
+ }
+ 
+ 
+ /* adjust margins/padding of the imgs on i guess container 4 and 5 
+         also add the navbar etc
+         and thats it ur done, cuz i think that the mobile responsive is done tbh 
+         keep the pcs of the sirs removed i guess */
